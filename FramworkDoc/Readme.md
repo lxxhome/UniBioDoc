@@ -1,10 +1,14 @@
-1.本系统采用.net Core的MVC架构进行开发。官方技术文档：https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=windows   
+## 1.   
+本系统采用.net Core的MVC架构进行开发。官方技术文档：https://docs.microsoft.com/zh-cn/aspnet/core/getting-started/?view=aspnetcore-6.0&tabs=windows   
 
-2.数据库交互使用Dapper。官方技术文档：https://dapper-tutorial.net/   
+## 2.
+数据库交互使用Dapper。官方技术文档：https://dapper-tutorial.net/   
 
-3.本系统采用插件化开发模式进行开发。所有公用的插件已封装为.dll包进行引入。所有以Eis.开头的插件皆为自己开发。在程序中可进行方便的引用。视图相关插件的引用一般会放入在各文件夹模块Views文件夹根目录下，作为分部视图引入。
+## 3.
+本系统采用插件化开发模式进行开发。所有公用的插件已封装为.dll包进行引入。所有以Eis.开头的插件皆为自己开发。在程序中可进行方便的引用。视图相关插件的引用一般会放入在各文件夹模块Views文件夹根目录下，作为分部视图引入。
 
-4.本系统分为三大模块：   
+## 4.
+本系统分为三大模块：   
 Eis.Web,   
 Eis.Web.Business,   
 Eis.Web.Model。   
@@ -17,9 +21,10 @@ Areas功能技术文档参考：https://docs.microsoft.com/zh-cn/aspnet/core/mvc
 ### Eis.Web.Model
 此模块用于与第三方库系统有关系的Model的创建。例如：排班表LongshineShift。
 
-5.本系统主要采用“服务器呈现的 UI”来完成数据的展示。具体优缺点请求参照文档：https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/choose-web-ui?view=aspnetcore-6.0   
+## 5.
+本系统主要采用“服务器呈现的 UI”来完成数据的展示。具体优缺点请求参照文档：https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/choose-web-ui?view=aspnetcore-6.0   
 
-6.本系统封装特性展示：   
+## 6.本系统封装特性展示：   
 
 ### 一.数据基本的增删改查方法已封装到IRepository   
 直接调用即可。 各方法均有同步和异步调用。
