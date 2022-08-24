@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T06:24:29.617Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cte05s3cqfChDFdfCuFp" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-24T08:06:54.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mDfnccU2W-JVjI_It-L8" version="20.2.5" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-11" value="Orgchart" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="80" width="860" height="290" as="geometry" />
+          <mxGeometry x="40" y="80" width="860" height="310" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 24px; background-color: initial;&quot;&gt;主项目构成&lt;/span&gt;&lt;/div&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="dNxyNK7c78bLwvsdeMH5-12">
           <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
@@ -28,12 +28,83 @@
             <mxGeometry x="490" y="180" width="180" height="80" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="4M2os_00tuR9PxIEtUj1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="dNxyNK7c78bLwvsdeMH5-12" target="4M2os_00tuR9PxIEtUj1-19" parent="dNxyNK7c78bLwvsdeMH5-11">
+        <mxCell id="4M2os_00tuR9PxIEtUj1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="dNxyNK7c78bLwvsdeMH5-11" source="dNxyNK7c78bLwvsdeMH5-12" target="4M2os_00tuR9PxIEtUj1-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;p style=&quot;language:zh-CN;margin-top:0pt;margin-bottom:0pt;margin-left:0in;&lt;br/&gt;text-align:left;direction:ltr;unicode-bidi:embed;mso-line-break-override:none;&lt;br/&gt;word-break:normal;punctuation-wrap:hanging&quot;&gt;&lt;span style=&quot;font-size: 18pt; font-family: 等线;&quot;&gt;酶工程&lt;/span&gt;&lt;/p&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="4M2os_00tuR9PxIEtUj1-19">
-          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;" parent="dNxyNK7c78bLwvsdeMH5-11" vertex="1">
             <mxGeometry x="260" y="185" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-29" value="项目表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="140" width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-30" value="参与人字段（各参与人&#xa;Fid以逗号分隔，查询项&#xa;目参与人时可以直接从参与&#xa;人表或员工表查询。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-29">
+          <mxGeometry y="30" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-31" value="负责人字段（存Fid)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-29">
+          <mxGeometry y="170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-33" value="项目组织结构" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="980" height="480" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;多肽组&lt;/span&gt;&lt;/div&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-34">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="400" y="35" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-35" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" parent="vULR1lWyTl1B3oWY-ogi-33" source="vULR1lWyTl1B3oWY-ogi-34" target="vULR1lWyTl1B3oWY-ogi-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;大肠杆菌&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-36">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="200" y="165" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-37" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" parent="vULR1lWyTl1B3oWY-ogi-33" source="vULR1lWyTl1B3oWY-ogi-34" target="vULR1lWyTl1B3oWY-ogi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;利拉普肽&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Alison Donovan" position="System Admin" location="Office 3" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-38">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-2-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="630" y="165" width="180" height="80" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="vULR1lWyTl1B3oWY-ogi-33" source="vULR1lWyTl1B3oWY-ogi-34" target="vULR1lWyTl1B3oWY-ogi-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;酿酒酵母&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Tessa Miller" position="CFO" location="Office 1" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-40">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeMoving=1;treeFolding=1;align=center;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="400" y="170" width="180" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-41" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="vULR1lWyTl1B3oWY-ogi-42" source="vULR1lWyTl1B3oWY-ogi-36" parent="vULR1lWyTl1B3oWY-ogi-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="535" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;大肠杆菌&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-42">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="200" y="285" width="180" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-43" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="vULR1lWyTl1B3oWY-ogi-44" source="vULR1lWyTl1B3oWY-ogi-36" parent="vULR1lWyTl1B3oWY-ogi-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="675" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;大肠杆菌&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-44">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="390" y="285" width="180" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="vULR1lWyTl1B3oWY-ogi-45" value="" style="endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;" edge="1" target="vULR1lWyTl1B3oWY-ogi-46" source="vULR1lWyTl1B3oWY-ogi-36" parent="vULR1lWyTl1B3oWY-ogi-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="675" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font face=&quot;等线&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;大肠杆菌&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" name="Edward Morrison" position="Brand Manager" location="Office 2" email="me@example.com" placeholders="1" link="https://www.draw.io" id="vULR1lWyTl1B3oWY-ogi-46">
+          <mxCell style="label;image=https://cdn3.iconfinder.com/data/icons/user-avatars-1/512/users-10-3-128.png;whiteSpace=wrap;html=1;rounded=0;glass=0;treeFolding=1;treeMoving=1;" vertex="1" parent="vULR1lWyTl1B3oWY-ogi-33">
+            <mxGeometry x="10" y="285" width="180" height="50" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
